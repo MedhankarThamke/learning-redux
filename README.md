@@ -1,4 +1,4 @@
-# Redux Toolkit Todo App
+# Redux Toolkit Todo
 
 A simple Todo application built with **React** and **Redux Toolkit**, demonstrating state management and basic CRUD operations.
 
