@@ -1,14 +1,17 @@
 import { useState } from "react";
-import Todos from "./components/Todos";
-import AddTodo from "./components/AddTodo";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 import "./App.css";
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
 
 function App() {
   return (
     <>
-      <h1>learning redux toolkit</h1>
-      <Todos></Todos>
-      <AddTodo></AddTodo>
+      <h1>Learn about redux toolkit</h1>
+
+      <AddTodo />
+      <Todos />
     </>
   );
 }
